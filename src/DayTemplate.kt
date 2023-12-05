@@ -10,10 +10,11 @@ fun main() {
     }
 
     val testInput = readInput("DayXX_test")
-    check(part1(testInput) == 0)
-    check(part2(testInput) == 0)
-
     val input = readInput("DayXX")
+
+    check(part1(testInput) == 0)
     println(part1(input))
-    println(part2(input))
+
+//    check(part2(testInput) == 0)
+//    println(part2(input))
 }
