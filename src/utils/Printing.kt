@@ -1,3 +1,3 @@
 package utils
 
-fun Any.println() = this.also { println(it) }
+fun <T : Any> T.println(): T = this.also { println(it) }
